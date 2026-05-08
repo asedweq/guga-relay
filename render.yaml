@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: guga-relay
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
